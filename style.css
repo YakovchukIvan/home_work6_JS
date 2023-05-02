@@ -42,14 +42,10 @@ body {
     padding: 10px 20px;
 }
 
-.taskInput1 {
-    border-radius: 8px;
-    border: none;
-    font-size: 18px;
+.outTask1, .outTask2 > span{
+    border-radius: 4px;
     padding: 8px 16px;
 }
-
-.outTask1 {}
 
 .task2 {
     /* display: flex;
@@ -61,14 +57,16 @@ body {
     padding: 10px 20px;
 }
 
-.taskInput2 {
+input {
     border-radius: 8px;
     border: none;
     font-size: 18px;
     padding: 8px 16px;
 }
 
-.outTask2 {}
+.taskInput3 {
+    margin-top: 10px;
+}
 
 button {
     background-color: #52a6d6;
